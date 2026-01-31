@@ -1,0 +1,26 @@
+name: Ideas
+description: Suggest ideas for future research or improvements
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Have an idea? We'd love to hear it!
+  - type: textarea
+    id: idea
+    attributes:
+      label: Idea
+      description: What's your suggestion?
+      placeholder: Describe your idea...
+    validations:
+      required: true
+  - type: textarea
+    id: motivation
+    attributes:
+      label: Motivation
+      description: Why would this be valuable?
+  - type: textarea
+    id: approach
+    attributes:
+      label: Suggested Approach
+      description: How might this be implemented?

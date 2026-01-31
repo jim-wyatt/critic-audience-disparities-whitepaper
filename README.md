@@ -3,7 +3,8 @@
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
 [![Citation: CFF](https://img.shields.io/badge/Citation-CFF-blue.svg)](CITATION.cff)
 [![Status](https://img.shields.io/badge/Status-Preprint-blue)]()
-[![Pages](https://img.shields.io/badge/Pages-8--9-green)]()  
+[![Pages](https://img.shields.io/badge/Pages-8--9-green)]()
+[![Build Status](https://github.com/jim-wyatt/critic-audience-disparities-whitepaper/actions/workflows/build.yml/badge.svg)](https://github.com/jim-wyatt/critic-audience-disparities-whitepaper/actions/workflows/build.yml)
 [![Build](https://img.shields.io/badge/Build-GitHub%20Actions-blue)](.github/workflows/build.yml)
 
 > An academic whitepaper investigating systematic disparities between professional critics and general audiences in aesthetic evaluation of documentary film.
