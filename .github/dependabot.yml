@@ -4,8 +4,6 @@ updates:
     directory: "/"
     schedule:
       interval: "weekly"
-      day: "monday"
-      time: "09:00"
-    open-pull-requests-limit: 5
-    reviewers:
-      - "jim-wyatt"
+    commit-message:
+      prefix: "chore(deps):"
+      include: "scope"
