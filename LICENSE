@@ -26,12 +26,12 @@ LICENSING NOTE:
 
 This project uses dual licensing:
 
-1. **MIT License (Code)**: All scripts, build configuration, workflows, and 
-   software components are licensed under the MIT License. You are free to 
+1. **MIT License (Code)**: All scripts, build configuration, workflows, and
+   software components are licensed under the MIT License. You are free to
    use, modify, and distribute the code.
 
-2. **Creative Commons Attribution 4.0 (Built Artifact)**: The compiled PDF 
-   whitepaper and research manuscript are licensed under CC BY 4.0. You must 
+2. **Creative Commons Attribution 4.0 (Built Artifact)**: The compiled PDF
+   whitepaper and research manuscript are licensed under CC BY 4.0. You must
    provide attribution and may use for any purpose including commercially.
 
 For the full CC BY 4.0 license, see LICENSE.CC-BY-4.0
