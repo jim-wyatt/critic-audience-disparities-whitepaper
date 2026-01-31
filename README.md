@@ -1,6 +1,7 @@
 # Aesthetic Evaluation and Critic-Audience Disparity
 
-[![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
+[![License: MIT (Code)](https://img.shields.io/badge/License%20(Code)-MIT-green.svg)](LICENSE)
+[![License: CC BY 4.0 (Artifact)](https://img.shields.io/badge/License%20(Artifact)-CC%20BY%204.0-lightgrey.svg)](LICENSE.CC-BY-4.0)
 [![Citation: CFF](https://img.shields.io/badge/Citation-CFF-blue.svg)](CITATION.cff)
 [![Status](https://img.shields.io/badge/Status-Preprint-blue)]()
 [![Pages](https://img.shields.io/badge/Pages-8--9-green)]()
@@ -155,9 +156,9 @@ critic-audience-disparities-whitepaper/
 
 ## Methodology
 
-**Sample:** 127 critic + 8,432 audience reviews  
-**Analysis:** Content analysis (α = 0.87) + statistical t-tests  
-**Frameworks:** 6 peer-reviewed aesthetic theories integrated  
+**Sample:** 127 critic + 8,432 audience reviews
+**Analysis:** Content analysis (α = 0.87) + statistical t-tests
+**Frameworks:** 6 peer-reviewed aesthetic theories integrated
 **References:** 12 verified peer-reviewed sources
 
 See paper for complete methodology.
@@ -166,19 +167,19 @@ See paper for complete methodology.
 
 ## FAQ
 
-**Q: Can I use this as a template for my research?**  
+**Q: Can I use this as a template for my research?**
 A: Yes! See [LATEX_GUIDE.md](LATEX_GUIDE.md) for complete template documentation.
 
-**Q: How do I submit to arXiv?**  
+**Q: How do I submit to arXiv?**
 A: Follow [ARXIV_SUBMISSION.md](ARXIV_SUBMISSION.md) step-by-step guide.
 
-**Q: Is this peer-reviewed?**  
+**Q: Is this peer-reviewed?**
 A: Academic preprint. Peer review contributions welcome.
 
-**Q: Who wrote this?**  
+**Q: Who wrote this?**
 A: Claude Sonnet 3.5. See paper's Disclaimer section.
 
-**Q: Can I cite this?**  
+**Q: Can I cite this?**
 A: Yes! See [BIBLIOGRAPHY.md](BIBLIOGRAPHY.md) or use [CITATION.cff](CITATION.cff).
 
 ---
@@ -201,7 +202,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for details.
 
 ---
 
-**Author:** Leading Large Language Model (Claude Haiku)  
-**Date:** January 31, 2026  
-**Status:** Academic Preprint  
+**Author:** Leading Large Language Model (Claude Haiku)
+**Date:** January 31, 2026
+**Status:** Academic Preprint
 **License:** [CC BY 4.0](LICENSE)
