@@ -1,0 +1,62 @@
+name: Build and Release
+
+on:
+  push:
+    branches:
+      - main
+    tags:
+      - 'v*'
+  workflow_dispatch:
+
+jobs:
+  build-and-release:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      
+      - name: Install XeLaTeX
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y texlive-xetex texlive-latex-extra texlive-fonts-recommended
+      
+      - name: Build PDF
+        run: bash scripts/build.sh
+      
+      - name: Get version
+        id: version
+        run: |
+          if [[ $GITHUB_REF == refs/tags/* ]]; then
+            echo "tag=${GITHUB_REF#refs/tags/}" >> $GITHUB_OUTPUT
+          else
+            # Auto-version based on commit count
+            VERSION="v1.0.$(git rev-list --count HEAD)"
+            echo "tag=$VERSION" >> $GITHUB_OUTPUT
+          fi
+      
+      - name: Create Release
+        uses: softprops/action-gh-release@v1
+        with:
+          tag_name: ${{ steps.version.outputs.tag }}
+          name: Release ${{ steps.version.outputs.tag }}
+          body: |
+            ## Whitepaper Release
+            
+            **Academic whitepaper on critic-audience aesthetic evaluation disparities**
+            
+            - 9 pages, XeLaTeX compiled
+            - Comprehensive disclaimer included
+            - arXiv submission ready
+            
+            Download the PDF below or see [README.md](https://github.com/${{ github.repository }}) for citation formats.
+            
+            **Commit:** ${{ github.sha }}
+          files: |
+            output/whitepaper.pdf
+          draft: false
+          prerelease: false
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

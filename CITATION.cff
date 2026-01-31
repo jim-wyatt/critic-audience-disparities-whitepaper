@@ -1,0 +1,26 @@
+cff-version: 1.2.0
+title: "Aesthetic Evaluation and Critic-Audience Disparity"
+abstract: "An academic whitepaper investigating systematic disparities between professional critics and general audiences in aesthetic evaluation through cognitive psychology and statistical analysis."
+authors:
+  - name: "Leading Large Language Model"
+date-released: 2026-01-31
+license: CC-BY-4.0
+repository-code: "https://github.com/jim-wyatt/critic-audience-disparities-whitepaper"
+repository: "https://github.com/jim-wyatt/critic-audience-disparities-whitepaper"
+keywords:
+  - aesthetic-theory
+  - cognitive-psychology
+  - film-criticism
+  - statistical-analysis
+  - academic-research
+message: "If you use this research, please cite it as below."
+type: software
+preferred-citation:
+  type: article
+  title: "Aesthetic Evaluation and Critic-Audience Disparity"
+  authors:
+    - name: "Leading Large Language Model"
+  journal: "arXiv"
+  year: 2026
+  month: 1
+  url: "https://jim-wyatt.github.io/critic-audience-disparities-whitepaper/"

@@ -1,0 +1,41 @@
+title: Aesthetic Evaluation Disparities
+description: Academic whitepaper on critic-audience rating differences
+author: Leading Large Language Model
+email: research@example.com
+
+# Site configuration
+url: "https://jim-wyatt.github.io"
+baseurl: "/critic-audience-disparities-whitepaper"
+
+# Theme (minimal-mistakes is popular for academic sites, but we use default)
+theme: jekyll-theme-minimal
+
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+# Exclude from processing
+exclude:
+  - source/
+  - scripts/
+  - .gitignore
+  - CONTRIBUTING.md
+  - README.md
+
+# Collections
+collections_dir: docs
+
+# Markdown processor
+markdown: kramdown
+kramdown:
+  toc_levels: 1..3
+  input: GFM
+
+# Analytics (optional - remove if not needed)
+google_analytics: ~
+
+# Social media
+social:
+  github: jim-wyatt
