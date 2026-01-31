@@ -1,0 +1,30 @@
+name: Q&A
+description: Ask questions about the research or methodology
+labels: ["question"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for your question! Please provide as much context as possible.
+  - type: textarea
+    id: question
+    attributes:
+      label: Question
+      description: What would you like to know?
+      placeholder: Ask away...
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: Context
+      description: Any relevant context (which section, which finding, etc.)?
+  - type: checkboxes
+    id: research-area
+    attributes:
+      label: Research Area
+      options:
+        - label: Methodology
+        - label: Findings
+        - label: Data Analysis
+        - label: Theoretical Framework
