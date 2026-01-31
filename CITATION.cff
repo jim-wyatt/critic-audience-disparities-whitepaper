@@ -2,7 +2,7 @@ cff-version: 1.2.0
 title: "Aesthetic Evaluation and Critic-Audience Disparity"
 abstract: "An academic whitepaper investigating systematic disparities between professional critics and general audiences in aesthetic evaluation through cognitive psychology and statistical analysis."
 authors:
-  - name: "Leading Large Language Model"
+  - name: "Jim Wyatt"
 date-released: 2026-01-31
 license: CC-BY-4.0
 repository-code: "https://github.com/jim-wyatt/critic-audience-disparities-whitepaper"
@@ -19,7 +19,7 @@ preferred-citation:
   type: article
   title: "Aesthetic Evaluation and Critic-Audience Disparity"
   authors:
-    - name: "Leading Large Language Model"
+    - name: "Jim Wyatt"
   journal: "arXiv"
   year: 2026
   month: 1
